@@ -1,5 +1,5 @@
-Micro\ Manual.pdf: Micro\ Manual.tex eval.lisp
-	pdflatex 'Micro Manual.tex'
+micro-manual.pdf: micro-manual.tex eval.lisp
+	pdflatex micro-manual.tex
 
 .PHONY: clean
 clean:  ## Remove build artifacts and stale files
